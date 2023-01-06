@@ -1,0 +1,19 @@
+# Node.js
+node_modules
+
+# Editor
+.vscode/
+.idea/
+.vim/
+
+# Testing
+coverage/
+
+# Environment
+.env
+
+# Production
+dist/
+
+# Misc
+.DS_Store

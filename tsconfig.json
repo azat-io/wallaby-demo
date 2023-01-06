@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "importsNotUsedAsValues": "error",
+    "preserveValueImports": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "module": "esnext",
+    "target": "es2020",
+    "jsx": "react-jsx",
+    "types": ["node"],
+    "allowJs": true,
+    "strict": true,
+    "noEmit": true,
+    "paths": {
+      "~/components/*": ["./components/*"],
+      "~/lib/*": ["./lib/*"],
+      "~/view": ["./view"]
+    }
+  },
+  "include": ["**/*.tsx", "**/*.ts"],
+  "exclude": ["node_modules"]
+}
